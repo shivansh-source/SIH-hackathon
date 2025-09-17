@@ -1,0 +1,607 @@
+{
+  "station_name": "Banaras Railway Station",
+  "station_code": "BSBS",
+  "train_count": 75,
+  "trains": [
+    {
+      "train_number": "19670",
+      "train_name": "HUMSAFAR EXPRESS",
+      "type": "Premium",
+      "arrival_time": "10:25",
+      "departure_time": "10:35",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "22500",
+      "train_name": "VANDE BHARAT EX",
+      "type": "Premium",
+      "arrival_time": null,
+      "departure_time": "11:50",
+      "days_of_run": "STWTFS"
+    },
+    {
+      "train_number": "22346",
+      "train_name": "VANDE BHARAT EXP",
+      "type": "Premium",
+      "arrival_time": "01:25",
+      "departure_time": "01:30",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "19669",
+      "train_name": "PPTA HUMSAFAR",
+      "type": "Premium",
+      "arrival_time": "21:05",
+      "departure_time": "21:15",
+      "days_of_run": "W"
+    },
+    {
+      "train_number": "22489",
+      "train_name": "VANDE BHARAT EXP",
+      "type": "Premium",
+      "arrival_time": "14:40",
+      "departure_time": null,
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12165",
+      "train_name": "LTT GKP SF EXP",
+      "type": "SuperFast",
+      "arrival_time": "12:40",
+      "departure_time": "12:50",
+      "days_of_run": "MTF"
+    },
+    {
+      "train_number": "12875",
+      "train_name": "NEELACHAL SF EX",
+      "type": "SuperFast",
+      "arrival_time": "12:50",
+      "departure_time": "13:00",
+      "days_of_run": "SMF"
+    },
+    {
+      "train_number": "12372",
+      "train_name": "BKN HWH SF EXP",
+      "type": "SuperFast",
+      "arrival_time": "10:30",
+      "departure_time": "10:40",
+      "days_of_run": "T"
+    },
+    {
+      "train_number": "12791",
+      "train_name": "SC DNR SF EXP",
+      "type": "SuperFast",
+      "arrival_time": "18:55",
+      "departure_time": "19:05",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12168",
+      "train_name": "BSBS LTT SF EXP",
+      "type": "SuperFast",
+      "arrival_time": "15:40",
+      "departure_time": null,
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "13005",
+      "train_name": "HWH ASR MAIL",
+      "type": "Mail",
+      "arrival_time": "14:45",
+      "departure_time": "14:55",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "13006",
+      "train_name": "ASR HWH MAIL",
+      "type": "Mail",
+      "arrival_time": "22:20",
+      "departure_time": "22:30",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12381",
+      "train_name": "POORVA EXPRESS",
+      "type": "Express",
+      "arrival_time": "00:15",
+      "departure_time": "00:25",
+      "days_of_run": "WTS"
+    },
+    {
+      "train_number": "12166",
+      "train_name": "GKP LTT EXPRESS",
+      "type": "Express",
+      "arrival_time": "01:40",
+      "departure_time": "01:50",
+      "days_of_run": "TF"
+    },
+    {
+      "train_number": "12317",
+      "train_name": "AKAL TAKHT EXP",
+      "type": "Express",
+      "arrival_time": "02:00",
+      "departure_time": "02:10",
+      "days_of_run": "WS"
+    },
+    {
+      "train_number": "22670",
+      "train_name": "PNBE ERS EXPRES",
+      "type": "Express",
+      "arrival_time": "02:25",
+      "departure_time": "02:35",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "12876",
+      "train_name": "NEELANCHAL EXP",
+      "type": "Express",
+      "arrival_time": "03:10",
+      "departure_time": "03:20",
+      "days_of_run": "STF"
+    },
+    {
+      "train_number": "19051",
+      "train_name": "MFP SHRAMIK EXP",
+      "type": "Express",
+      "arrival_time": "03:40",
+      "departure_time": "03:50",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "15933",
+      "train_name": "NTSK ASR EXPRESS",
+      "type": "Express",
+      "arrival_time": "03:40",
+      "departure_time": "03:50",
+      "days_of_run": "T"
+    },
+    {
+      "train_number": "15053",
+      "train_name": "CPR LJN EXPRESS",
+      "type": "Express",
+      "arrival_time": "05:10",
+      "departure_time": "05:20",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "19421",
+      "train_name": "ADI PNBE EXP",
+      "type": "Express",
+      "arrival_time": "05:10",
+      "departure_time": "05:20",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "11062",
+      "train_name": "JYG LTT EXP",
+      "type": "Express",
+      "arrival_time": "05:35",
+      "departure_time": "05:45",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "22355",
+      "train_name": "PPTA CDG EXP",
+      "type": "Express",
+      "arrival_time": "06:35",
+      "departure_time": "06:45",
+      "days_of_run": "WS"
+    },
+    {
+      "train_number": "12167",
+      "train_name": "LTT BANARAS EXP",
+      "type": "Express",
+      "arrival_time": "06:55",
+      "departure_time": "07:05",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12327",
+      "train_name": "UPASANA EXP",
+      "type": "Express",
+      "arrival_time": "07:15",
+      "departure_time": "07:25",
+      "days_of_run": "WT"
+    },
+    {
+      "train_number": "12392",
+      "train_name": "SHRAMJIVI EXP",
+      "type": "Express",
+      "arrival_time": "08:05",
+      "departure_time": "08:15",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "22177",
+      "train_name": "MAHANAGARI EXP",
+      "type": "Express",
+      "arrival_time": "08:41",
+      "departure_time": "08:43",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12561",
+      "train_name": "SWATANTRAS EXP",
+      "type": "Express",
+      "arrival_time": "10:09",
+      "departure_time": "10:19",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "12382",
+      "train_name": "POORVA EXPRESS",
+      "type": "Express",
+      "arrival_time": "10:15",
+      "departure_time": "10:25",
+      "days_of_run": "MTF"
+    },
+    {
+      "train_number": "15667",
+      "train_name": "KAMAKHYA EXP",
+      "type": "Express",
+      "arrival_time": "11:00",
+      "departure_time": "11:10",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "15054",
+      "train_name": "LJN CPR EXPRESS",
+      "type": "Express",
+      "arrival_time": "11:45",
+      "departure_time": "11:55",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "18103",
+      "train_name": "JALIANWALABAG EX",
+      "type": "Express",
+      "arrival_time": "13:30",
+      "departure_time": "13:40",
+      "days_of_run": "MW"
+    },
+    {
+      "train_number": "12562",
+      "train_name": "SWTANTRTA S EXP",
+      "type": "Express",
+      "arrival_time": "13:35",
+      "departure_time": "13:45",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "18104",
+      "train_name": "ASR TATA EXP",
+      "type": "Express",
+      "arrival_time": "14:50",
+      "departure_time": "15:00",
+      "days_of_run": "FS"
+    },
+    {
+      "train_number": "14854",
+      "train_name": "MARUDHAR EXP",
+      "type": "Express",
+      "arrival_time": "15:15",
+      "departure_time": "15:25",
+      "days_of_run": "SMWFS"
+    },
+    {
+      "train_number": "19167",
+      "train_name": "SABARMATI EXP",
+      "type": "Express",
+      "arrival_time": "15:15",
+      "departure_time": "15:25",
+      "days_of_run": "STFS"
+    },
+    {
+      "train_number": "15668",
+      "train_name": "KYQ GIMB EXP",
+      "type": "Express",
+      "arrival_time": "15:30",
+      "departure_time": "15:40",
+      "days_of_run": "W"
+    },
+    {
+      "train_number": "22323",
+      "train_name": "SHABD BHEDI EXP",
+      "type": "Express",
+      "arrival_time": "15:30",
+      "departure_time": "15:40",
+      "days_of_run": "T"
+    },
+    {
+      "train_number": "19045",
+      "train_name": "TAPTI GANGA EXP",
+      "type": "Express",
+      "arrival_time": "16:10",
+      "departure_time": "16:20",
+      "days_of_run": "MTWTFS"
+    },
+    {
+      "train_number": "19313",
+      "train_name": "INDB PNBE EXP",
+      "type": "Express",
+      "arrival_time": "16:10",
+      "departure_time": "16:20",
+      "days_of_run": "MW"
+    },
+    {
+      "train_number": "19321",
+      "train_name": "INDB PNBE EXP",
+      "type": "Express",
+      "arrival_time": "16:50",
+      "departure_time": "17:00",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "19305",
+      "train_name": "DADN KYQ EXP",
+      "type": "Express",
+      "arrival_time": "17:05",
+      "departure_time": "17:15",
+      "days_of_run": "T"
+    },
+    {
+      "train_number": "11061",
+      "train_name": "LTT JAYNAGAR EXP",
+      "type": "Express",
+      "arrival_time": "17:55",
+      "departure_time": "18:05",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "19489",
+      "train_name": "ADI GKP EXP",
+      "type": "Express",
+      "arrival_time": "17:50",
+      "departure_time": "18:20",
+      "days_of_run": "STWTFS"
+    },
+    {
+      "train_number": "12328",
+      "train_name": "UPASANA EXPRESS",
+      "type": "Express",
+      "arrival_time": "18:40",
+      "departure_time": "18:50",
+      "days_of_run": "TS"
+    },
+    {
+      "train_number": "19168",
+      "train_name": "SABARMATI EXP",
+      "type": "Express",
+      "arrival_time": "19:55",
+      "departure_time": "20:00",
+      "days_of_run": "STWS"
+    },
+    {
+      "train_number": "13240",
+      "train_name": "KOTA PNBE EXP",
+      "type": "Express",
+      "arrival_time": "20:00",
+      "departure_time": "20:10",
+      "days_of_run": "MTWS"
+    },
+    {
+      "train_number": "12391",
+      "train_name": "SHRAMJEEVI EXP",
+      "type": "Express",
+      "arrival_time": "20:32",
+      "departure_time": "20:42",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "15934",
+      "train_name": "ASR NTSK EXP",
+      "type": "Express",
+      "arrival_time": "20:50",
+      "departure_time": "21:05",
+      "days_of_run": "F"
+    },
+    {
+      "train_number": "19046",
+      "train_name": "TAPTI GANGA EXP",
+      "type": "Express",
+      "arrival_time": "21:05",
+      "departure_time": "21:15",
+      "days_of_run": "STWFS"
+    },
+    {
+      "train_number": "11072",
+      "train_name": "KAMAYANI EXP",
+      "type": "Express",
+      "arrival_time": "21:20",
+      "departure_time": "21:30",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "19314",
+      "train_name": "INDORE EXPRESS",
+      "type": "Express",
+      "arrival_time": "21:20",
+      "departure_time": "21:30",
+      "days_of_run": "FS"
+    },
+    {
+      "train_number": "13010",
+      "train_name": "DOON EXPRESS",
+      "type": "Express",
+      "arrival_time": "21:40",
+      "departure_time": "21:50",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "15160",
+      "train_name": "SARNATH EXP",
+      "type": "Express",
+      "arrival_time": "21:45",
+      "departure_time": "22:00",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "14865",
+      "train_name": "MARUDHAR EXP",
+      "type": "Express",
+      "arrival_time": "22:15",
+      "departure_time": "22:20",
+      "days_of_run": "S"
+    },
+    {
+      "train_number": "14863",
+      "train_name": "MARUDHAR EXP",
+      "type": "Express",
+      "arrival_time": "22:15",
+      "departure_time": "22:25",
+      "days_of_run": "W"
+    },
+    {
+      "train_number": "12792",
+      "train_name": "SECUNDERABAD EX",
+      "type": "Express",
+      "arrival_time": "22:20",
+      "departure_time": "22:30",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "14224",
+      "train_name": "BUDHPURNIMA EXP",
+      "type": "Express",
+      "arrival_time": "02:00",
+      "departure_time": null,
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "11071",
+      "train_name": "KAMAYANI EXPRESS",
+      "type": "Express",
+      "arrival_time": "01:15",
+      "departure_time": "01:25",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "22688",
+      "train_name": "BSB MYS EXPRESS",
+      "type": "Express",
+      "arrival_time": "02:40",
+      "departure_time": null,
+      "days_of_run": "TF"
+    },
+    {
+      "train_number": "22178",
+      "train_name": "MAHANAGARI EXP",
+      "type": "Express",
+      "arrival_time": "15:30",
+      "departure_time": null,
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "22417",
+      "train_name": "MAHAMANA EXP",
+      "type": "Express",
+      "arrival_time": "00:25",
+      "departure_time": null,
+      "days_of_run": "TSS"
+    },
+    {
+      "train_number": "14213",
+      "train_name": "BRK INTERCITY",
+      "type": "Intercity",
+      "arrival_time": "19:30",
+      "departure_time": null,
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "01026",
+      "train_name": "BUI DR SPL",
+      "type": "Special",
+      "arrival_time": "00:35",
+      "departure_time": "00:40",
+      "days_of_run": "TWF"
+    },
+    {
+      "train_number": "01025",
+      "train_name": "DR RALLIA SPI",
+      "type": "Special",
+      "arrival_time": "02-50",
+      "departure_time": "02-55",
+      "days_of_run": "SMTS"
+    },
+    {
+      "train_number": "01027",
+      "train_name": "DR GORAKHPUR SPL",
+      "type": "Special",
+      "arrival_time": "02:50",
+      "departure_time": "02:55",
+      "days_of_run": "STWT"
+    },
+    {
+      "train_number": "03312",
+      "train_name": "DHN FESTIVL SPL",
+      "type": "Special",
+      "arrival_time": "06:15",
+      "departure_time": "06:20",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "01123",
+      "train_name": "CSMT NGP SF SPL",
+      "type": "Special",
+      "arrival_time": "06:15",
+      "departure_time": "06:20",
+      "days_of_run": "W"
+    },
+    {
+      "train_number": "04089",
+      "train_name": "PNBE ANVT SPL",
+      "type": "Special",
+      "arrival_time": "07:15",
+      "departure_time": "07:25",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "04090",
+      "train_name": "ANVT PNBE SPL",
+      "type": "Special",
+      "arrival_time": "08:40",
+      "departure_time": "08:50",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "04095",
+      "train_name": "PPTA ANVT SPL",
+      "type": "Special",
+      "arrival_time": "14:10",
+      "departure_time": "14:20",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "09525",
+      "train_name": "HAPA NHLN SPL",
+      "type": "Special",
+      "arrival_time": "16:20",
+      "departure_time": "16:25",
+      "days_of_run": "W"
+    },
+    {
+      "train_number": "04096",
+      "train_name": "PPTA FESTIVL SPL",
+      "type": "Special",
+      "arrival_time": "18:30",
+      "departure_time": "18:40",
+      "days_of_run": "SMTWTFS"
+    },
+    {
+      "train_number": "01124",
+      "train_name": "LTT PUJA SPL",
+      "type": "Special",
+      "arrival_time": "18:50",
+      "departure_time": "18:55",
+      "days_of_run": "F"
+    },
+    {
+      "train_number": "01431",
+      "train_name": "PUNE GCT SPECIAL",
+      "type": "Special",
+      "arrival_time": "20:15",
+      "departure_time": "20:20",
+      "days_of_run": "F"
+    }
+  ]
+}
