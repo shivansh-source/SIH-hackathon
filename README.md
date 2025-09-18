@@ -10,7 +10,7 @@
 
 **Maximizing Section Throughput Using AI-Powered Precise Train Traffic Control**
 
-[View Demo](#-demo) • [Report Bug](https://github.com/shivansh-source/SIH-hackathon/issues) • [Request Feature](https://github.com/shivansh-source/SIH-hackathon/issues)
+• [Report Bug](https://github.com/shivansh-source/SIH-hackathon/issues) • [Request Feature](https://github.com/shivansh-source/SIH-hackathon/issues)
 
 </div>
 
@@ -22,12 +22,10 @@
 - [Key Features](#-key-features)  
 - [Tech Stack](#️-tech-stack)
 - [Getting Started](#-getting-started)
-- [Performance](#-performance)
 - [AI Algorithms](#-ai-algorithms)
 - [API Documentation](#-api-documentation)
-- [Contributing](#-contributing)
 - [Team](#-team)
-- [License](#-license)
+
 
 ---
 
