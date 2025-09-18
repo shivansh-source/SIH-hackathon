@@ -1,0 +1,11 @@
+Algorithm,Use_Case,Advantages,Limitations,Typical_Runtime,Implementation_Complexity,Scalability_Score
+Mixed Integer Linear Programming (MILP),"Optimal train scheduling, Resource allocation","Optimal solutions, Well-established theory","Scalability issues, Long computation time",Minutes to hours for medium problems,Medium (using solvers like Gurobi),2/5
+Constraint Programming (CP),"Real-time conflict resolution, Junction scheduling","Flexible modeling, Fast solutions for complex constraints","May not guarantee optimality, Solution quality varies",Seconds to minutes for real-time use,"Medium (using CP-SAT, Choco)",3/5
+Genetic Algorithm (GA),"Large-scale timetabling, Multi-objective optimization","Handles large solution spaces, Multi-objective capability","No optimality guarantee, Parameter tuning required",Minutes for large problems,Low to Medium,4/5
+Simulated Annealing (SA),"Train path optimization, Schedule adjustment","Escapes local optima, Simple implementation","No optimality guarantee, Slow convergence possible",Seconds to minutes,Low,4/5
+Reinforcement Learning (RL),"Dynamic dispatching, Adaptive scheduling","Learns from experience, Adapts to changing conditions","Training time intensive, Black box approach","Hours for training, milliseconds for inference",High (deep learning frameworks),5/5
+Branch and Bound,"Small to medium problem instances, Exact solutions","Guarantees optimality, Systematic search","Exponential time complexity, Memory intensive",Exponential with problem size,Medium,2/5
+Lagrangian Relaxation,"Network-wide optimization, Decomposition approach","Good bounds, Handles complex problems","Subgradient method issues, Implementation complexity",Minutes to hours,High,4/5
+Column Generation,"Large-scale scheduling, Variable generation","Efficient for large problems, Dynamic variable addition","Complex implementation, Pricing problem difficulty",Minutes to hours,High,4/5
+Tabu Search,"Local optimization, Neighborhood search","Good for local improvement, Memory-based search","Local optima risk, Parameter sensitive",Minutes for medium problems,Medium,3/5
+Ant Colony Optimization,"Distributed optimization, Swarm intelligence","Distributed processing, Bio-inspired approach","Parameter tuning, Premature convergence",Minutes to hours,Medium,4/5

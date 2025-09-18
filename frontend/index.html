@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Traffic Optimization Dashboard - Indian Railways</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1>🚆 Railway Traffic Control Center</h1>
+                    <p>Intelligent Decision Support System</p>
+                </div>
+                <div class="system-status">
+                    <div class="status-indicator online">
+                        <span class="status-dot"></span>
+                        System Online
+                    </div>
+                    <div class="current-time" id="currentTime"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="dashboard-nav">
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-tab="overview" type="button">Dashboard</button>
+                <button class="nav-btn" data-tab="monitoring" type="button">Train Monitoring</button>
+                <button class="nav-btn" data-tab="conflicts" type="button">Conflicts</button>
+                <button class="nav-btn" data-tab="optimization" type="button">Optimization</button>
+                <button class="nav-btn" data-tab="system" type="button">System Status</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            <!-- Overview Tab -->
+            <section class="tab-content active" id="overview">
+                <div class="overview-grid">
+                    <!-- Key Metrics -->
+                    <div class="metrics-section">
+                        <h2>System Overview</h2>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-value" id="totalTrains">1,247</div>
+                                <div class="metric-label">Total Trains Managed</div>
+                            </div>
+                            <div class="metric-card alert">
+                                <div class="metric-value" id="activeConflicts">3</div>
+                                <div class="metric-label">Active Conflicts</div>
+                            </div>
+                            <div class="metric-card success">
+                                <div class="metric-value" id="resolvedToday">23</div>
+                                <div class="metric-label">Resolved Today</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value" id="systemUptime">99.8%</div>
+                                <div class="metric-label">System Uptime</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Performance Chart -->
+                    <div class="chart-section">
+                        <h3>Algorithm Performance</h3>
+                        <div class="chart-container" style="position: relative; height: 300px;">
+                            <canvas id="performanceChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- System Architecture -->
+                    <div class="architecture-section">
+                        <h3>System Architecture</h3>
+                        <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/db2b978be814fad911479b2f2d7400d8/f06553fe-7293-4f91-9219-a91a7e141421/2c5673b4.png" alt="Railway System Architecture" class="architecture-diagram">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Train Monitoring Tab -->
+            <section class="tab-content hidden" id="monitoring">
+                <div class="monitoring-header">
+                    <h2>Real-time Train Monitoring</h2>
+                    <div class="monitoring-controls">
+                        <button class="btn btn--secondary" id="refreshTrains" type="button">Refresh Data</button>
+                        <div class="filter-controls">
+                            <select class="form-control" id="statusFilter">
+                                <option value="all">All Status</option>
+                                <option value="ontime">On Time</option>
+                                <option value="delayed">Delayed</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="train-list" id="trainList">
+                    <!-- Train cards will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Conflicts Tab -->
+            <section class="tab-content hidden" id="conflicts">
+                <div class="conflicts-header">
+                    <h2>Conflict Detection & Resolution</h2>
+                    <div class="alert-summary">
+                        <span class="status status--error">High Priority: 1</span>
+                        <span class="status status--warning">Medium Priority: 2</span>
+                    </div>
+                </div>
+                
+                <div class="conflicts-list" id="conflictsList">
+                    <!-- Conflict cards will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Optimization Tab -->
+            <section class="tab-content hidden" id="optimization">
+                <div class="optimization-header">
+                    <h2>Optimization Algorithms</h2>
+                    <button class="btn btn--primary" id="runOptimization" type="button">Run Full Optimization</button>
+                </div>
+                
+                <div class="algorithms-grid" id="algorithmsGrid">
+                    <!-- Algorithm cards will be populated by JavaScript -->
+                </div>
+                
+                <div class="optimization-results hidden" id="optimizationResults">
+                    <h3>Optimization Results</h3>
+                    <div class="results-content">
+                        <div class="result-metric">
+                            <span class="result-label">Estimated Delay Reduction:</span>
+                            <span class="result-value success" id="delayReduction">18%</span>
+                        </div>
+                        <div class="result-metric">
+                            <span class="result-label">Conflicts Resolved:</span>
+                            <span class="result-value" id="conflictsResolved">2 of 3</span>
+                        </div>
+                        <div class="result-metric">
+                            <span class="result-label">Optimization Time:</span>
+                            <span class="result-value" id="optimizationTime">45 seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- System Status Tab -->
+            <section class="tab-content hidden" id="system">
+                <div class="system-grid">
+                    <div class="system-health">
+                        <h3>System Health</h3>
+                        <div class="health-metrics">
+                            <div class="health-item">
+                                <span class="health-label">API Connectivity</span>
+                                <span class="status status--success">Online</span>
+                            </div>
+                            <div class="health-item">
+                                <span class="health-label">Database Status</span>
+                                <span class="status status--success">Connected</span>
+                            </div>
+                            <div class="health-item">
+                                <span class="health-label">Signaling Integration</span>
+                                <span class="status status--success">Active</span>
+                            </div>
+                            <div class="health-item">
+                                <span class="health-label">TMS Integration</span>
+                                <span class="status status--warning">Limited</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="performance-metrics">
+                        <h3>Performance Metrics</h3>
+                        <div class="chart-container" style="position: relative; height: 250px;">
+                            <canvas id="systemPerformanceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Alerts Panel -->
+        <div class="alerts-panel" id="alertsPanel">
+            <div class="alerts-header">
+                <h3>System Alerts</h3>
+                <button class="alerts-close" id="closeAlerts" type="button">×</button>
+            </div>
+            <div class="alerts-list" id="alertsList">
+                <!-- Alerts will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Alert Trigger Button -->
+        <button class="alerts-trigger" id="alertsTrigger" type="button">
+            🚨 <span class="alert-count" id="alertCount">3</span>
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
