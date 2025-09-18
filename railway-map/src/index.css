@@ -1,3 +1,4 @@
+/*
 
 body {
   margin: 0;
@@ -10,7 +11,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+
   gap: 1rem; 
   box-sizing: border-box;
   color: #ffffff;
@@ -18,11 +19,11 @@ body {
 
 .map-container {
   flex-grow: 1; 
-  background-color: #111827; /* gray-900 */
+  background-color: #111827; 
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   padding: 1rem;
-  min-height: 0; /* Prevents SVG from overflowing its container */
+  min-height: 0; 
 }
 
 .svg-map {
@@ -92,4 +93,93 @@ body {
   border-radius: 0.25rem; 
   font-size: 0.875rem; 
   word-break: break-all;
+}
+
+
+*/
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.map-container {
+  flex-grow: 1;
+  background-color: #1f2937;
+  border-right: 2px solid #374151;
+}
+
+.svg-map {
+  width: 100%;
+  height: 100%;
+}
+
+.control-panel {
+  width: 400px;
+  background-color: #374151;
+  color: #e5e7eb;
+  padding: 2rem;
+  flex-shrink: 0;
+}
+
+.panel-title {
+  color: #e5e7eb;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #4b5563;
+  padding-bottom: 1rem;
+}
+
+.panel-subtitle {
+  color: #d1d5db;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #4b5563;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #6b7280;
+}
+
+.btn-selected {
+  background-color: #3b82f6;
+}
+
+.btn-action {
+  background-color: #22c55e;
+}
+
+.btn-action:hover {
+  background-color: #16a34a;
+}
+
+.route-display {
+  font-family: monospace;
+  background-color: #1f2937;
+  padding: 0.5rem;
+  border-radius: 5px;
+  overflow-wrap: break-word;
 }
