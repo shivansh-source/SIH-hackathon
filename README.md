@@ -190,7 +190,7 @@ Content-Type: application/json
 | **Akshat-Raj** | AI-ML Engineer | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Akshat-Raj) |
 | **Astuti-Singh** | Frontend Engineer | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/astutisingh27) |
 | **Aman-Thakur** | AI-ML engineer | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Zenith1415) |
-| **Nishi-Mittal** | AI-ML engineer | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Zenith1415) |
+| **Nishi-Mittal** | AI-ML engineer | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/nishimittal112) |
 
 
 
